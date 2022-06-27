@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+}
+
+.header, .hero, .footer {
+    background-color: #1F2937;
+    display: flex;
+}
+
+.header {
+    padding: 0 160px;
+    align-items: center;
+}
+
+.hlinks {
+    margin-left: auto;
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.heroone {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hlinks, .herotwo {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button, .cta {
+    background-color: #3882F6;
+}
+
+.infohead {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
