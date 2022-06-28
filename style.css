@@ -10,11 +10,16 @@ body {
 }
 
 .header {
-    padding: 0 160px;
+    padding: 16px 160px;
     align-items: center;
 }
 
+.hero {
+    padding: 120px 160px;
+}
+
 .hlinks {
+    margin: 0;
     margin-left: auto;
     list-style: none;
     display: flex;
@@ -30,15 +35,27 @@ body {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+
+.herotwo {
+    margin-bottom: 10px;
 }
 
 .hlinks, .herotwo {
     font-size: 18px;
     color: #E5E7EB;
+    padding: 0;
 }
 
 .button, .cta {
     background-color: #3882F6;
+    padding: 6px 16px;
+    color: #F9FAF8;
+    font-weight: bold;
+    width: 100px;
+    border-radius: 8px;
 }
 
 .infohead {
@@ -55,4 +72,18 @@ body {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+}
+
+.image {
+    width: 300px;
+    padding: 64px;
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.awesome {
+    display: flex;
+    flex-direction: column;
 }
